@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="index.php" method="post">
+        <div class="container">
+            <h1 class="heading">Electricity Bill</h1>
+            <hr style="margin-bottom: 20px;"> 
+            <div class="grid">
+                <div>
+                    <div class="row">
+                        <label for="">Name:</label>
+                        <input type="text" placeholder="Your Name" name="name">
+                    </div>
+                    <div class="row">
+                        <label for="">Registration Number:</label>
+                        <input type="number" name="cn">
+                    </div>
+                    <div class="row">
+                        <label for="">Month:</label>
+                        <input type="date">
+                    </div>
+                    <div class="row">
+                        <label for="">Enter the bill Units:</label>
+                        <input type="number" placeholder="units" name="units">
+                    </div>
+                </div>
+                <div>
+                    <img  src="bill.jpg" alt="">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Amount</button>
+        </div>
+    </form>
+</body>
+</html>
