@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+
+#logo img{
+    height: 60px;
+    width: 70px;
+}
+
+#top{
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo{
+    display: flex;
+    
+}
+
+
+#logo #name{
+    color: white;
+    font-size: 27px;
+    margin: auto 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav{
+    margin: auto 40px auto 0px;
+    position: fixed;
+    left: 20%;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(78, 167, 155);
+}
+
+#content img{
+    height: 400px;
+    width: 580px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+#content{
+    background-color: rgb(242, 253, 253);
+}
+
+#info{
+    position: relative;
+    left: 720px;
+    bottom: 200px;
+    width: 500px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#info h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#info p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+.blocks img{
+    height: 150px;
+    width: 240px;
+    margin: 20px;
+}
+
+.blocks{
+    border: 4px inset black;
+    border-radius: 20px;
+    margin: 40px 20px;
+    text-align: center;
+}
+
+#services{
+    background-color: white;
+}
+
+#service{
+    display:flex;
+}
+hr{
+    box-shadow: 0px 0px 5px black;
+    color: black;
+}
+
+.blocks{
+    background-color: rgb(244, 252, 252);
+}
+
+#services h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+
+#service h1{
+    text-align: center;
+    margin: 25px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blocks p{
+    width: 350px;
+    margin: 0px 10px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blocks h1{
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#doctors{
+    display: flex;
+}
+
+#doch1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+#doctors h1{
+    text-align: center;
+
+}
+
+#do{
+    background-color: rgb(242, 253, 253);
+}
+
+.doc {
+    border: 4px double black;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: white;
+}
+
+.doc img{
+    height: 250px;
+    width: 240px;
+    margin: 20px;
+}
+
+.doc .icons img{
+    height: 30px;
+    width: 30px;
+    display: inline;
+    margin: 20px 15px;
+}
+
+.doc h3{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.doc .icons img:hover{
+    background-color: rgb(144, 238, 222);
+}
+
+input{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    width: 400px;
+}    
+
+input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    margin: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact{
+    background-color: rgb(240, 250, 248);
+}
+
+form{
+    margin: 30px 60px;
+}
+
+textarea{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    width: 400px;
+}
+
+textarea::placeholder{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact img{
+    display: inline;
+    height: 350px;
+    width: 550px;
+    right: 100px;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+button{
+    position: relative;
+    padding: 10px;
+    top: 35px;
+    margin-bottom: 30px;
+    right: 240px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.foot{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+

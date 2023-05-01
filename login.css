@@ -1,0 +1,105 @@
+body{
+    margin-top: 8%;
+}
+#sign{
+    text-align: center;
+}
+#wah{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-left: 7%;
+}
+#bla{
+    color:white;
+}
+#email{
+    background-color: rgb(81, 80, 83);
+    height: 25px;
+   
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 120%;
+}
+
+#text{
+    background-color: rgb(81, 80, 83);
+    height: 25px;
+   
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 120%;
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: lightblue;
+    border: solid thin #aaa;
+    display: grid;
+    margin-left: 25%;
+}
+
+#button:hover{
+    background-color: rgb(74, 202, 70);
+}
+
+#box{
+
+    background:
+    linear-gradient(
+    rgba(35,43,85,0.75),
+    rgba(35,43,85,0.95)),
+    url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/clouds-cloudy-forest-mountain.jpg) no-repeat center center;
+    display: grid;
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 300px;
+    padding: 25px;
+    padding-right:65px;
+    border-radius: 4%;
+  
+}
+#signup{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-left: 7%;
+}
+#home{
+ 
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-left: 7%;
+}
+
+#mega{
+    display: grid;
+    place-content: center;
+
+}
+#login{
+    margin-left: 4%;
+    text-align: center;
+    
+}
+#button{
+    background-color: rgb(100, 100, 148); 
+}
+#home:hover{
+    color: orange;
+}
+#wah:hover{
+    color: orange;
+}
+#signup:hover{
+    color: orange;
+}

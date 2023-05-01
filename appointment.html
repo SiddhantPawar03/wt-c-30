@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="appointment.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+</head>
+<body>
+    <div id="book">
+        <h1><u><strong>Appointment Form</strong></u></h1>
+        <form action="bookappointment.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="text" name="phoneNo" placeholder="Enter your phone number" required>
+            <input type="text" name="mail" placeholder="Enter your mail" required>
+            <p>Please select your gender : </p>
+            <p> Male</p><input type="radio" name="Gender" class="gen" value="Male">
+            <p> Female</p><input type="radio" name="Gender" class="gen" value="Female"> 
+            <p> Other</p><input type="radio" name="Gender" class="gen" value="Other">
+            <br>
+            <label for="select">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select your doctor : </label>
+            <select name="Doctor" id="select">
+                <option value="Anand Joshi">Anand Joshi</option>
+                <option value="Yogesh Sharma">Yogesh Sharma</option>
+                <option value="Amol Yadav">Amol Yadav</option>
+                <option value="Sarawati Mohite">Sarawati Mohite</option>
+            </select>
+            <br>
+            <label for="problem">&nbsp;&nbsp;&nbsp;Select your problem : </label>
+            <select name="problem" id="problem">
+                <option value="Diabetes">Diabetes</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Heart diseases">Heart diseases</option>
+                <option value="Influenza">Influenza</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label for="mode">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mode of Conduct: </label>
+            <select name="conduct" id="conduct">
+                <option value="Online">Online</option>
+                <option value="Offline">Offline</option>
+            </select>
+            <br>
+            <label for="start">Select Preffered date:</label>
+
+            <script type="text/javascript">
+                var today = new Date();
+                var day = today.getDay();
+                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                var month = new Month();
+                var currmonth = today.getMonth();
+                var nextmonth = today.getMonth()+4;
+            </script>
+         
+            <input type="date" id="date" name="date" value="Select Preffered Date" placeholder="Select Preffered Date" min="2022-01-06" max="2022-12-31">
+            <label for="timing">Select your timing slot : </label>
+            <select name="time" id="timing">
+                <option value="10.00 - 12.00">10.00 - 12.00 AM</option>
+                <option value="2.00 - 5.00">2.00 - 5.00 PM</option>
+                <option value="6.00 - 8.00">6.00 - 8.00 PM</option>
+            </select>
+            <input type="text" name="age" placeholder="Enter your age" required>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your problem in detail"></textarea>
+            <br>
+            <i>Terms & Conditions applied</i>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
