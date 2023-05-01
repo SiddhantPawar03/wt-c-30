@@ -1,63 +1,65 @@
-body{
-    font-family: sans-serif;
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    background-color: rgb(228, 222, 222);
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.heading{
-    font-size: 48px;
-    text-align:center;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.container{
-    /* text-align: center; */
-    padding: 24px 48px;
-    width: 800px;
-    height: 80vh;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #A5A5A5;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-input{
-    font-size:20px;
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.row{
-    font-size:30px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+  
+  table th,
+  table td {
     padding: 5px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
 }
 
-img{
-    width: 400px;
-    height: 250px;
+@media only screen and (max-width: 480px) {
+  table {
+    font-size: 12px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
 }
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-button{
-    margin-top:40px;
-    margin-left:330px;
-    text-align: center;
-    border:none;
-    border-radius:10px;
-    background-color: #008CBA;
-    color: #fff;
-    padding:10px 15px;
-    text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.thank{
-    text-align:center;
-    margin-top: 100px;
-
-}
-
