@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>Electricity Bill Calculator</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.6.0/css/bootstrap.min.css}" />
+   </head>
+   <body>
+      <div class="container">
+         <h1>Electricity Bill Result</h1>
+         <div th:if="${bill != null}">
+            <p>Your Electricity Bill is <span th:text="${bill}"></span></p>
+         </div>
+         <div th:if="${bill == null}">
+            <p>Please enter units consumed to calculate your electricity bill.</p>
+         </div>
+         <a href="/" class="btn btn-primary">Calculate Again</a>
+      </div>
+      <script th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+      <script th:src="@{/webjars/bootstrap/4.6.0/js/bootstrap.min.js}"></script>
+   </body>
+</html>
