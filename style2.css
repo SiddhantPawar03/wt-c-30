@@ -1,0 +1,32 @@
+/* Styling for form labels */
+label {
+  display: block; /* display each label on a new line */
+  font-weight: bold; /* make label text bold */
+  margin-bottom: 5px; /* add a little space between labels */
+}
+
+/* Styling for form inputs */
+input[type="text"] {
+  padding: 5px; /* add some padding to the input boxes */
+  font-size: 16px; /* set font size */
+  border: 1px solid #ccc; /* add a border */
+  border-radius: 3px; /* add a little border radius */
+  margin-bottom: 10px; /* add some space between inputs */
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+  background-color: #4CAF50; /* set background color */
+  color: white; /* set font color */
+  padding: 10px 20px; /* add some padding */
+  border: none; /* remove border */
+  border-radius: 3px; /* add a little border radius */
+  font-size: 16px; /* set font size */
+  cursor: pointer; /* add a pointer cursor */
+}
+
+/* Styling for form heading */
+h1 {
+  font-size: 24px; /* set font size */
+  margin-bottom: 20px; /* add some space below heading */
+}
